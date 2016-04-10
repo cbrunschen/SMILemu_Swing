@@ -1,0 +1,99 @@
+<html>
+<head>
+  <title>SMILemu, The SMIL Emulator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<p align="center"><font size="+5">SMILemu</font></p>
+<p align="center"><font size="+3">The SMIL Emulator</font></p>
+<p align="center"><font size="+1">Version 1.2</font></p>
+<p align="center">
+<a href="applet.html">
+<img alt="SMIL Emulator Control Panel" src="images/ControlPanel.png" border="0">
+</a>
+</p>
+<h3 align="center"><em>2007-08-30</em>: <a href="#Download">SMILemu 1.2</a></h3>
+<p>
+It is with great pleasure that I can finally announce version 1.2 of SMILemu. This release 
+has one main new feature: SMILemu now generates sound! (And the volume control indeed controls
+the volume of the sound that SMILemu generates, as it should.) There is a new tab in the Options
+window that allows you to configure whether sound should be enabled (the default) or not, and which
+bit in which register should be used as the source for the sound.
+</p>
+<p>
+The manual has been updated with a brief section on the sound capabilities of SMIL and SMILemu,
+and to describe the changes in the Options window.
+</p>
+<p>
+Please try it out, and feel free to comment!
+</p>
+<h3 align="center"><em>2006-01-19</em>: SMILemu 1.1</h3>
+<p>
+An improved version of SMILemu, version 1.1, is available immediately. This 
+release contains bug fixes, improved unit tests, and includes a nicer
+documentation browser, as well as a facility to extract the documentation from
+SMILemu into a directory of your choice for offline reading or printing.
+Additionally, SMILemu 1.1 can <a href="applet.html">run as an Applet</a> 
+in your web browser, presuming you have a Java 5 runtime installed.
+</p>
+<p><font size="-1" color="#7f7f7f">Main Fixes:<ul>
+<li>Logical Product instruction: wasn't working at all, now works as intended</li>
+<li>Normalization instruction was off by one bit: Now shifts and counts correctly</li>
+<li>Documentation had incorrect operand order for addition and logical product operations: documentation fixed</li>
+</ul></font></p>
+<h3 align="center"><em>2006-01-04</em>: SMILemu 1.0</h3>
+<p>
+In 1956, SMIL &mdash; <b>S</b>iffer<b>m</b>askinen <b>i</b> <b>L</b>und, 'The  
+Number Machine in Lund' &mdash; was deployed
+at the University of Lund in Lund, Sweden. SMIL was built based on the 
+blueprints for BESK, Bin&auml;r elektronisk Sekvens-Kalkylator, 'Binary Electronic 
+Sequence Calculator', constructed in Stockholm in 1953 by 
+Matematikmaskinn&auml;mnden, 
+'The Mathematics Machine Committee'. Both BESK and SMIL were based on the design 
+that had been produced by the Institute for Advanced Study, usually referred to
+as the 'IAS Machine' design, which was used by several computer projects 
+throughout the world.
+</p><p>
+To give today's computer users a feeling for how far the world of computers has
+advanced in just 50 years, I present SMILemu, and emulator for SMIL, implemented
+in portable Java 5, licensed under the GNU General Public License (GPL) version 
+2 or later. SMILemu attempts to honestly recreate the experience of using SMIL,
+including SMIL's original execution speed. To make the emulator and the emulated
+SMIL more accessible to a modern audience, SMILemu implements a number of 
+optional extensions that make SMIL's memory and processor accessible in a way 
+which was not possible in 1956, but gives a much easier view into the workings 
+of SMIL.
+</p>
+<p>
+SMILemu is Copyright &copy; 2005-2007 Christian Brunschen.
+You may download a copy under the provisions of the GNU General Public License, 
+version 2 . Please see the file <tt>gpl.txt</tt>
+included with SMILemu, or the 
+<a href="http://www.gnu.org/licenses/gpl.html">GPL Web page</a>.
+</p>
+<h2 align="center"><a name="Download"></a>Downloads</h2>
+<p align="center">
+<table>
+<tr><td>Download the SMIL emulator as a Java Archive, '.jar file'</td><td align="right"><a href="SMILemu-1.2.jar">SMILemu-1.2.jar</a></td></tr>
+<tr><td>Download the SMIL emulator as a Mac OS X Disk Image</td><td align="right"><a href="SMILemu-1.2.dmg">SMILemu-1.2.dmg</a></td></tr>
+</table>
+</p>
+<p align="center">
+You may also run SMILemu as a Java Applet, if you have a Java 5 Runtime installed:<br>
+<a href="applet.html">SMILemu 1.2 Applet</a>
+</p>
+
+<h2 align="center">Documentation</h2>
+<p align="center">
+The documentation is included with SMILemu, available to read or extract from the <em>Help</em> menu. Alternatively, you can read the
+documentation here, or download as a .zip file:
+<table>
+<tr><td align="center"><a href="QuickStart.html">Quick Start Guide</a></td></tr>
+<tr><td align="center"><a href="Manual.html">SMILemu Manual</a></td></tr>
+<tr><td align="center"><a href="SMILemu-1.2-doc.zip">Download Documentation as .zip archive</a></td></tr>
+</table>
+</p>
+
+<p align="center"><font size="-1">Copyright &copy; 2005-2007 <a href="mailto:smilemu@smilemu.org">Christian Brunschen</a></font></p>
+</body>
+</html>
